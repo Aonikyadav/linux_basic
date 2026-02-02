@@ -1,8 +1,0 @@
-If you want to write something into a file in Linux, here are the correct beginner methods, explained step-by-step with examples
-⭐ Beginner Tip
-
-grep does not change files
-
-It only searches & displays
-
-Very fast and powerful

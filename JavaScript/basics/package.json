@@ -6,7 +6,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon String.js",
-    "raj": "nodemon raj.js"
+    "raj": "nodemon raj.js",
+    "variable": "nodemon 01_Variable.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aonikyadav/linux_basic.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Aonikyadav/linux_basic.git"
   },
   "keywords": [],
   "author": "",

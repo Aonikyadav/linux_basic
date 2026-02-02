@@ -30,9 +30,9 @@ console.log(typeof bigNumber);
 // ++++++++++++++++++++++++++++++++++++++++++++++++
 // Stack(Primitive), Heap(Non-Primitive)
 
-let myName = "YashVarshney";
+let myName = "Aonokyadav";
 let anotherName = myName;
-anotherName = "Varshney ji";
+anotherName = "yadav ji";
 console.log(anotherName);
 console.log(myName);
 let userOne = {
