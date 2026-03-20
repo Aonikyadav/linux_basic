@@ -1,0 +1,99 @@
+{
+  "info": {
+    "name": "Student Management API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "POST /students - Add Student",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"name\": \"Rahul\",\n  \"course\": \"CSE\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:4001/students",
+          "host": ["localhost"],
+          "port": "4001",
+          "path": ["students"]
+        }
+      }
+    },
+    {
+      "name": "GET /students - List Students",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "http://localhost:4001/students",
+          "host": ["localhost"],
+          "port": "4001",
+          "path": ["students"]
+        }
+      }
+    },
+    {
+      "name": "PUT /students/0 - Replace Student",
+      "request": {
+        "method": "PUT",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"name\": \"Updated\",\n  \"course\": \"IT\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:4001/students/0",
+          "host": ["localhost"],
+          "port": "4001",
+          "path": ["students", "0"]
+        }
+      }
+    },
+    {
+      "name": "PATCH /students/0 - Update Name",
+      "request": {
+        "method": "PATCH",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"name\": \"Patched Name\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:4001/students/0",
+          "host": ["localhost"],
+          "port": "4001",
+          "path": ["students", "0"]
+        }
+      }
+    },
+    {
+      "name": "DELETE /students/0",
+      "request": {
+        "method": "DELETE",
+        "url": {
+          "raw": "http://localhost:4001/students/0",
+          "host": ["localhost"],
+          "port": "4001",
+          "path": ["students", "0"]
+        }
+      }
+    }
+  ]
+}
+

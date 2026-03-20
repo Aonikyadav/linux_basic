@@ -2,7 +2,6 @@
 console.log("🚀 JavaScript project started!");
 
 // Import path module demo
-const pathDemo = require('./path');
+import { showPaths } from './path.js';
 
-// Run demo function
-pathDemo.showPaths();
+// Run demo function\nshowPaths();

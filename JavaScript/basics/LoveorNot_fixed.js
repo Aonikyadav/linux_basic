@@ -4,7 +4,7 @@ const app = express();
 app.use(express.json()); // Body parser first
 
 const students = {
-    name: "aonik",
+    name: "Agni",
     class: "Third",
     section: "G",
     "roll no.": 17

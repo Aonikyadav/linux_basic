@@ -1,5 +1,5 @@
 // path.js
-const path = require('path');
+import path from 'path';
 
 function showPaths() {
   const filePath = __filename;
@@ -16,6 +16,5 @@ function showPaths() {
   console.log("🔗 Joined Path:", joinedPath);
 }
 
-module.exports = {
-  showPaths
-};
+export { showPaths };
+

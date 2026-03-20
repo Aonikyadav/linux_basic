@@ -12,9 +12,9 @@ const score = false
 
 // *Reference Type(Non Primitive)
 //Array, Objects, Functions
-const heros = ["Sharukh","Salman","Varun","Ajay"];
+const hero = ["shark","salmon","varuna","jay"];
 let myObj = {
-    name:"hitesh",
+    name:"hires",
     age: 22,
 }
 
@@ -30,9 +30,9 @@ console.log(typeof bigNumber);
 // ++++++++++++++++++++++++++++++++++++++++++++++++
 // Stack(Primitive), Heap(Non-Primitive)
 
-let myName = "Aonokyadav";
+let myName = "Dav";
 let anotherName = myName;
-anotherName = "yadav ji";
+anotherName = "dash";
 console.log(anotherName);
 console.log(myName);
 let userOne = {

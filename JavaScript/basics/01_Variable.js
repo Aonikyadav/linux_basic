@@ -1,7 +1,7 @@
 const accountId =144566;
 let accountEmail = "aonik@gmail.com";
 var accountPassword = " 1234";
-accountCity = "Jaipur";
+let accountCity = "Jaipur";
 let accountState;
 
 // accountId = 2; //Not allowed
