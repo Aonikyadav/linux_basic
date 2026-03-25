@@ -1,0 +1,44 @@
+File Summary for basics/ directory
+================================
+
+This directory contains a Node.js project for learning JavaScript basics, Express.js APIs, and server development. Dependencies: Express 5+, Nodemon. Type: ES modules.
+
+1. LEARNING JS FUNDAMENTALS (Tutorial/Exercise files):
+   - 01_Variable.js: Demonstrates variable declarations (const accountId=144566; let accountEmail; var accountPassword;), reassignment rules, console.table([vars]).
+   - String.js: Likely string manipulation exercises (main script in package.json).
+   - math.js: Math operations practice.
+   - path.js: Path module or string path handling.
+   - Question1.js: Problem-solving exercise.
+
+2. EXPRESS REST APIs:
+   - student-api.js: Full CRUD Express app on port 4001. In-memory students array. Routes: POST/GET/PUT/PATCH/DELETE /students(/:index). Uses express.json().
+   - todo-api.js: Similar todo REST API (inferred from name).
+   - book-api.js: Book management REST API (inferred).
+
+3. SERVERS & HTTP:
+   - server.js: Native HTTP server (port 7200). File system demo: mkdir 'mydir', write/append/read 'demo.txt', rename to 'new.txt', unlink.
+   - LoveorNot.js / LoveorNot_fixed.js / LoveorNot_fixed.cjs: Basic/commented HTTP server evolving to file ops (Hello World, /about, 404; fixed with FS ops).
+   - app.js: Main Express app (likely entry with routes/middleware).
+   - index.js: Index server script.
+
+4. AUTH & MIDDLEWARE:
+   - checktoken.js / checktoken.cjs: Token validation middleware/functions.
+   - checkpass.js / checkpass.cjs: Password checking/validation.
+   - middleware.js: Custom Express middleware.
+
+5. ROUTING & PROJECT:
+   - routes/routes.js: Express route handlers.
+   - package.json: Project config, scripts (nodemon String.js, raj.js, variable, index).
+   - student-api.postman_collection.json: Postman tests for student-api.
+
+6. EXPERIMENTS/DEMO:
+   - demo.js: Demo script.
+   - file.js: File handling.
+   - file.txt: Plain text file.
+   - raj.js: Personal/custom script (nodemon script).
+
+7. DOCS & TRACKERS:
+   - TODO.md: Task list for fixing LoveorNot_fixed.js (analysis, plan, edit, test – marked complete).
+   - TODO_final.md / TODO_spelling.md: Additional todo variants.
+
+Overall: Mix of JS basics tutorials, Express API prototypes (students/todos/books), auth utils, servers. Active on LoveorNot fixes, student-api. Run with 'npm start' or specific nodemon scripts.

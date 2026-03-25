@@ -1,42 +1,8 @@
 const express = require("express");
-const Checktoken = require("./checktoken");
-const checkpass = require("./checkpass");
+const Checktoken = require("./checktoken.cjs");
+const checkpass = require("./checkpass.cjs");
 const app = express();
 app.use(express.json());
-
-// Commented middleware definitions - create separate files instead
-/*
-let tokens = "Ayush";
-let mypass = "12345";
-let Checktoken = (req, res, next) => {
-    console.log(req.query.token);
-    if (req.query.token === "" || req.query.token === undefined) {
-        return res.send({ status: 0, msg: "token is required" });
-    }
-    if (req.query.token !== tokens) {
-        return res.send({ status: 0, msg: "token is invalid please provide a valid token" });
-    }
-    next();
-};
-app.use(Checktoken);
-
-let Checkpass = (req, res, next) => {
-    if (req.query.pass === "" || req.query.pass === undefined) {
-        return res.send({
-            status: 0,
-            msg: "please fill this password"
-        });
-    }
-    if (req.query.pass != mypass) {
-        return res.send({
-            status: 0,
-            msg: "please enter the correct password"
-        });
-    }
-    next();
-};
-app.use(Checkpass);
-*/
 
 app.get("/", (req, res) => {
     res.send({ status: 1, msg: "this is home page API" });
