@@ -1,4 +1,4 @@
-# second.js - Express Server Documentation
+#  - Express Server Documentation
 
 ## Overview
 This is a Node.js Express server running on **port 3000**. It demonstrates basic routing, middleware (token & password auth), parameterized routes, POST handling, and error handling.
